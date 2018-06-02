@@ -19,5 +19,5 @@ add_definitions(${GCC_ERROR_RETURN_TYPE})
 #add_definitions(${GCC_COVERAGE_COMPILE_FLAGS})
 #add_definitions(${GCC_COVERAGE_LINK_FLAGS})
 
-set(SOURCE_FILES test/main.cpp Matrix.hpp include/nr3/nr3.h include/nr3/eigen_unsym.h include/csv_reader/CSVReader.hpp)
+set(SOURCE_FILES test/main.cpp Matrix.hpp include/nr3/nr3.h include/nr3/eigen_unsym.h include/csv_reader/CSVReader.hpp include/mersenne_twister/MersenneTwister.hpp)
 add_executable(matrix ${SOURCE_FILES})

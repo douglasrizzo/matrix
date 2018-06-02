@@ -5,6 +5,7 @@
 #include <array>
 #include <chrono>
 #include "../Matrix.hpp"
+#include "../include/mersenne_twister/MersenneTwister.hpp"
 
 using namespace std;
 using myClock = chrono::high_resolution_clock;
@@ -112,7 +113,6 @@ int main() {
   cout.precision(12);
   testAddRowColumn();
   testInverseDeterminant();
-  testMatrices();
   testOperations();
   testBigOperations();
   testEigen();
