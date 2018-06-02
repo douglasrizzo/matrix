@@ -3,13 +3,14 @@
 #include <sstream>
 #include <fstream>
 #include <array>
+#include <chrono>
 #include "../Matrix.hpp"
 
 using namespace std;
 using myClock = chrono::high_resolution_clock;
 
 void testMatrixFromCSV() {
-  MatrixD m = MatrixD::fromCSV(datasetDir + "../include/csv_reader/test/alpswater.csv");
+  MatrixD m = MatrixD::fromCSV("../include/csv_reader/test/alpswater.csv");
   cout << m;
 }
 
