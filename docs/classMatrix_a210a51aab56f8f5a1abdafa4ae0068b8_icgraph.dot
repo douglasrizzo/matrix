@@ -1,0 +1,20 @@
+digraph "Matrix::transpose"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node213 [label="Matrix::transpose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node213 -> Node214 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node214 [label="Matrix::adjugate",height=0.2,width=0.4,color="black",URL="$classMatrix.html#a55d50d5e97a447502075ed807f4c1005",tooltip="Returns the adjugate of the current matrix, which is the transpose of its cofactor matrix..."];
+  Node213 -> Node215 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node215 [label="Matrix::scatter",height=0.2,width=0.4,color="black",URL="$classMatrix.html#aaea066fd6a3972580cb7f9ccc3be5f38",tooltip="Calculates the scatter matrix. "];
+  Node215 -> Node216 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node216 [label="Matrix::WithinClassScatter",height=0.2,width=0.4,color="black",URL="$classMatrix.html#a5fd175e88fc60e7adf403e5c8f0f5670"];
+  Node213 -> Node217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 [label="Matrix::eigenSymmetric",height=0.2,width=0.4,color="black",URL="$classMatrix.html#a849e1dd04769a720c20e9d7120bfa487",tooltip="Calculates the eigenvalues and eigenvectors of a symmetric matrix using the Jacobi eigenvalue algorit..."];
+  Node213 -> Node218 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node218 [label="Matrix::BetweenClassScatter",height=0.2,width=0.4,color="black",URL="$classMatrix.html#aa494447ecb454d0486c8462fb2ba9741"];
+  Node213 -> Node219 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node219 [label="Matrix::oneHot",height=0.2,width=0.4,color="black",URL="$classMatrix.html#aa99cdbb65487d9db3ad1793593cb8b38"];
+}
