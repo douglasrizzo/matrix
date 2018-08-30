@@ -1,0 +1,7 @@
+<map id="Matrix::nRows" name="Matrix::nRows">
+<area shape="rect" id="node2" href="$classMatrix.html#a86232d13990243ef1dd1e7a514e446cc" title="Sorts eigenvalues by magnitude, sorting their corresponding eigenvectors in te same order..." alt="" coords="215,5,331,32"/>
+<area shape="rect" id="node3" href="$classMatrix.html#abf42ed73264b8442c29de0d2197ce882" title="Adds a column to the matrix at the given position. " alt="" coords="200,56,345,83"/>
+<area shape="rect" id="node4" href="$classMatrix.html#ab734c3f274f16439a0075b09722768b0" title="Selects a subset of either columns or rows of the matrix. " alt="" coords="221,107,324,133"/>
+<area shape="rect" id="node5" href="$classMatrix.html#a5fd175e88fc60e7adf403e5c8f0f5670" title="Matrix::WithinClassScatter" alt="" coords="175,157,370,184"/>
+<area shape="rect" id="node6" href="$classMatrix.html#aa494447ecb454d0486c8462fb2ba9741" title="Matrix::BetweenClassScatter" alt="" coords="168,208,377,235"/>
+</map>

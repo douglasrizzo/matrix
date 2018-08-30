@@ -1,0 +1,5 @@
+<map id="Matrix::mean" name="Matrix::mean">
+<area shape="rect" id="node2" href="$classMatrix.html#a405b443e7b0a3be4f36d7d61b7b94798" title="Counts occurrences of elements in a matrix. " alt="" coords="161,31,268,57"/>
+<area shape="rect" id="node3" href="$classMatrix.html#a92786d56abd92d0ea72dc3f481252133" title="Sorts elements of the matrix inplace. " alt="" coords="341,5,437,32"/>
+<area shape="rect" id="node4" href="$classMatrix.html#ac28a0846518ca104d36de2242bf1cc6e" title="Adds a column at the end of the matrix. " alt="" coords="316,56,461,83"/>
+</map>

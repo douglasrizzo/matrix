@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C++ matrix implementation: matrix</title>
+<title>C++ matrix implementation: C++ matrix implementation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,10 +62,33 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">matrix </div>  </div>
+<div class="title">C++ matrix implementation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>C++ matrix implementation </p>
+<div class="textblock"><p>This is an implementation of the mathematical matrix I made to use in other projects of mine, mostly related to <a href="http://douglasrizzo.com.br/machine_learning">statistical and machine learning</a>.</p>
+<p>Internally, it stores arithmetic values in a C++ vector and uses OpenMP collapsed parallel for loops to do things faster, if possible.</p>
+<p>Please note that I am in no way an expert in C++ or advanced linear algebra, so things might not be done as mathematically or memory efficient as possible. Still, some benchmarks were made to see the best conditions on when to trigger OpenMP and some optimizations on memory access were also implemented.</p>
+<p>The class contains the following features:</p>
+<ul>
+<li>operator overloading for scalar and matrix addition, subtraction, multiplication as well as matrix equality and inequality</li>
+<li>cofactor and cofactor matrix calculation</li>
+<li>Hadamard (entrywise) multiplication</li>
+<li>adjugate, determinant and inverse</li>
+<li>transpose</li>
+<li>adding and removing columns and rows</li>
+<li>get a single column or row</li>
+<li>get a subset of rows or columns</li>
+<li>create submatrices (a new matrix from a preexisting one, removing a single column and row)</li>
+<li>count occurrences, sort elements in-place, return only unique values from a matrix</li>
+<li>mean, scatter, variance, covariance and standard deviation from a matrix or each of its columns</li>
+<li>reshape</li>
+<li>standardize columns by the z-score (subtract mean and divide by stddev)</li>
+<li>create a diagonal matrix from column vector</li>
+<li>normalize columns (divide each column vector by the length of the vector)</li>
+<li>calculate eigenvalues and eigenvectors of symmetric and non-symmetric matrices (uses algorithm from Numerical Recipes)</li>
+<li>within-class and between-class scatter</li>
+<li>one-hot encoding of the unique values of a matrix </li>
+</ul>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

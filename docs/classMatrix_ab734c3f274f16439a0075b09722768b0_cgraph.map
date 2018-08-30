@@ -1,0 +1,6 @@
+<map id="Matrix::filter" name="Matrix::filter">
+<area shape="rect" id="node2" href="$classMatrix.html#a978acd1635d3b39906fb359b64120eb1" title="Matrix::nCols" alt="" coords="175,5,282,32"/>
+<area shape="rect" id="node3" href="$classMatrix.html#ad654d350a6c4831500016c403756cb88" title="Matrix::nRows" alt="" coords="171,56,286,83"/>
+<area shape="rect" id="node4" href="$classMatrix.html#ac28a0846518ca104d36de2242bf1cc6e" title="Adds a column at the end of the matrix. " alt="" coords="156,107,301,133"/>
+<area shape="rect" id="node5" href="$classMatrix.html#a10cf85a4d92ee5071f863c3b1a5c7855" title="Adds a row at the end of the matrix. " alt="" coords="167,157,290,184"/>
+</map>

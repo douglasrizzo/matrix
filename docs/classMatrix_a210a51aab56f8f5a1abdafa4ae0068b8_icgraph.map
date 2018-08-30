@@ -1,0 +1,8 @@
+<map id="Matrix::transpose" name="Matrix::transpose">
+<area shape="rect" id="node2" href="$classMatrix.html#a55d50d5e97a447502075ed807f4c1005" title="Returns the adjugate of the current matrix, which is the transpose of its cofactor matrix..." alt="" coords="229,5,357,32"/>
+<area shape="rect" id="node3" href="$classMatrix.html#aaea066fd6a3972580cb7f9ccc3be5f38" title="Calculates the scatter matrix. " alt="" coords="235,56,351,83"/>
+<area shape="rect" id="node5" href="$classMatrix.html#a849e1dd04769a720c20e9d7120bfa487" title="Calculates the eigenvalues and eigenvectors of a symmetric matrix using the Jacobi eigenvalue algorit..." alt="" coords="203,107,382,133"/>
+<area shape="rect" id="node6" href="$classMatrix.html#aa494447ecb454d0486c8462fb2ba9741" title="Matrix::BetweenClassScatter" alt="" coords="188,157,397,184"/>
+<area shape="rect" id="node7" href="$classMatrix.html#aa99cdbb65487d9db3ad1793593cb8b38" title="Matrix::oneHot" alt="" coords="233,208,352,235"/>
+<area shape="rect" id="node4" href="$classMatrix.html#a5fd175e88fc60e7adf403e5c8f0f5670" title="Matrix::WithinClassScatter" alt="" coords="445,56,640,83"/>
+</map>

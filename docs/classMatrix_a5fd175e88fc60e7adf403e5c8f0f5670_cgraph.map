@@ -1,0 +1,6 @@
+<map id="Matrix::WithinClassScatter" name="Matrix::WithinClassScatter">
+<area shape="rect" id="node2" href="$classMatrix.html#adfeed67f10fb811c2fc268d8d4a8df60" title="Returns only unique values from the matrix. " alt="" coords="249,5,363,32"/>
+<area shape="rect" id="node3" href="$classMatrix.html#ad654d350a6c4831500016c403756cb88" title="Matrix::nRows" alt="" coords="249,56,363,83"/>
+<area shape="rect" id="node4" href="$classMatrix.html#aaea066fd6a3972580cb7f9ccc3be5f38" title="Calculates the scatter matrix. " alt="" coords="248,107,364,133"/>
+<area shape="rect" id="node5" href="$classMatrix.html#a210a51aab56f8f5a1abdafa4ae0068b8" title="Returns the transpose of a matrix. " alt="" coords="412,107,547,133"/>
+</map>

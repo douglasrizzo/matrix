@@ -1,0 +1,6 @@
+<map id="Matrix::BetweenClassScatter" name="Matrix::BetweenClassScatter">
+<area shape="rect" id="node2" href="$classMatrix.html#adfeed67f10fb811c2fc268d8d4a8df60" title="Returns only unique values from the matrix. " alt="" coords="273,5,387,32"/>
+<area shape="rect" id="node3" href="$classMatrix.html#ad654d350a6c4831500016c403756cb88" title="Matrix::nRows" alt="" coords="273,56,387,83"/>
+<area shape="rect" id="node4" href="$classMatrix.html#af978e19d62fb06e0347af34c753f4efb" title="Gets a row from the matrix. " alt="" coords="270,107,390,133"/>
+<area shape="rect" id="node5" href="$classMatrix.html#a210a51aab56f8f5a1abdafa4ae0068b8" title="Returns the transpose of a matrix. " alt="" coords="263,157,397,184"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Matrix::oneHot" name="Matrix::oneHot">
+<area shape="rect" id="node2" href="$classMatrix.html#af978e19d62fb06e0347af34c753f4efb" title="Gets a row from the matrix. " alt="" coords="179,5,299,32"/>
+<area shape="rect" id="node3" href="$classMatrix.html#aa4169e72114ea8113de2f02bbb2566fd" title="Matrix::setRow" alt="" coords="180,56,299,83"/>
+<area shape="rect" id="node4" href="$classMatrix.html#a210a51aab56f8f5a1abdafa4ae0068b8" title="Returns the transpose of a matrix. " alt="" coords="172,107,307,133"/>
+</map>
