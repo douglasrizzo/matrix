@@ -2,6 +2,8 @@
 
 This is an implementation of the mathematical matrix I made to use in other projects of mine, mostly related to [statistical and machine learning](http://douglasrizzo.github.io/machine_learning).
 
+If you come from GitHub, access the doxygen-generated documentation of the class [here](http://douglasrizzo.github.io/matrix).
+
 Internally, it stores arithmetic values in a C++ vector and uses OpenMP collapsed parallel for loops to do things faster, if possible.
 
 Please note that I am in no way an expert in C++ or advanced linear algebra, so things might not be done as mathematically or memory efficient as possible. Still, some benchmarks were made to see the best conditions on when to trigger OpenMP and some optimizations on memory access were also implemented.
