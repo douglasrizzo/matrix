@@ -1,6 +1,6 @@
 # C++ matrix implementation
 
-This is an implementation of the mathematical matrix I made to use in other projects of mine, mostly related to [statistical and machine learning](http://douglasrizzo.com.br/machine_learning).
+This is an implementation of the mathematical matrix I made to use in other projects of mine, mostly related to [statistical and machine learning](http://douglasrizzo.github.io/machine_learning).
 
 Internally, it stores arithmetic values in a C++ vector and uses OpenMP collapsed parallel for loops to do things faster, if possible.
 
